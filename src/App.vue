@@ -5,7 +5,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 
 <template>
-  <nav class="navbar bg-light">
+  <nav class="navbar bg-dark navbar-dark">
     <div class="container">
       <router-link class="navbar-brand" to="/">
         <img src="@/assets/logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
@@ -21,7 +21,7 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
   </nav>
 
-  <div class="container">
+  <div class="container text-center">
     <RouterView />
   </div>
 </template>
