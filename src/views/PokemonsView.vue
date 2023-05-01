@@ -38,5 +38,7 @@ getData(url);
                 </router-link>
             </li>
         </ul>
+        <button :disabled="!data.previous" class="btn btn-danger me-2" @click="getData(data.previous)">Previous</button>
+        <button :disabled="!data.next" class="btn btn-success" @click="getData(data.next)">Next</button>
     </div>
 </template>
